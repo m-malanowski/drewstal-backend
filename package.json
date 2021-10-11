@@ -5,8 +5,8 @@
   "description": "A Strapi application",
   "scripts": {
     "develop": "strapi develop",
-    "start": "strapi start",
-    "build": "strapi build",
+    "start": "strapi develop",
+    "build": "strapi develop",
     "strapi": "strapi"
   },
   "devDependencies": {},
@@ -35,7 +35,7 @@
   },
   "engines": {
     "node": ">=10.16.0 <=14.x.x",
-    "npm": "^6.0.0"
+    "npm": ">=6.0.0"
   },
   "license": "MIT"
 }
