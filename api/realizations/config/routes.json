@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/realizations",
+      "handler": "realizations.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/realizations",
+      "handler": "realizations.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/realizations",
+      "handler": "realizations.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
